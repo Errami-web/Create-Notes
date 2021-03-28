@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background: #c68c53a8;
+    font-family: "Architects Daughter";
+    font-size: 24px;
+}
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+button{
+    cursor: pointer;
+}
+.container1{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.container3{
+    display: none; 
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.60);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+    overflow-x: auto;
+}
+svg{
+    color: gray;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+#check-icon{
+    position: absolute;
+    right:17% ;
+    top: 4%;   
+}
+#x-icon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
+
+#x-icon:hover{
+    color: #ff6f91;
+}
+
+#check-icon:hover{
+    color: #00c9a7;
+}
